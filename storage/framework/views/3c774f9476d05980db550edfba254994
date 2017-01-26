@@ -1,0 +1,403 @@
+
+
+<?php $__env->startSection('content'); ?>
+	<link rel="stylesheet" href="<?php echo e(asset('css/news-video-aboard-race.css')); ?>">
+
+	<!-- news begin -->
+	<div id="news">
+	    <div class="row">
+	    <div class="col-md-3">
+		<div class="news-1">
+			<div class="news-sec-left">
+				<section class="news-sec1">
+				<!-- 轮播（Carousel）开始-->
+						<div id="myCarousel-news" class="carousel slide">
+   <!-- 轮播（Carousel）指标 -->
+           <ol class="carousel-indicators">
+              <li data-target="#myCarousel-news" data-slide-to="0"  class="active"></li>
+              <li data-target="#myCarousel-news" data-slide-to="1"></li>
+               <li data-target="#myCarousel-news" data-slide-to="2"></li>
+         </ol>   
+   <!-- 轮播（Carousel）项目 -->
+      <div class="carousel-inner">
+           <div class="item active">
+             <a href=""><img src="image/ga.jpg"  alt="First slide"} alt="First slide"></a>
+              <div class="carousel-caption">圣杨智力扑点球</div>
+           </div>
+           <div class="item">
+             <a href=""><img src="image/ga.jpg" alt="Second slide"} alt="First slide"></a>
+             <div class="carousel-caption">国米平尤文</div>
+           </div>
+           <div class="item">
+             <a href=""><img src="image/ga.jpg" alt="third slide"} alt="First slide"></a>
+             <div class="carousel-caption">巴卡赛季第4球</div>
+           </div>
+
+     </div>
+   <!-- 轮播（Carousel）导航 -->
+           <a class="carousel-control left" href="#myCarousel-news" data-slide="prev">&lsaquo;</a>
+           <a class="carousel-control right" href="#myCarousel-news" data-slide="next">&rsaquo;</a>
+  
+         </div> 
+          <!-- 轮播（Carousel）结束 -->
+					<!-- <div class="fv1">
+						<a href="">圣杨智力扑点球</a>
+					</div> -->
+				</section>
+				<div class="news-text-big">
+					<p><a href="">FIFA23人金球奖名单:梅西领衔 巴萨皇马11人</a></p>
+					<span><a href="">新浪体育讯　　北京时间10月20号，国际足联对外公布了2015年FIFA金球奖23人名单，其中巴萨皇马占据了11人...
+					</a></span>
+					<p><a href="">FIFA23人金球奖名单:梅西领衔 巴萨皇马11人</a></p>
+					<span><a href="">新浪体育讯　　北京时间10月20号，国际足联对外公布了2015年FIFA金球奖23人名单，其中巴萨皇马占据了11人...
+					</a></span>
+					<!-- <div class="link-more"></div> -->
+				</div>
+			</div>
+			<div class="news-sec-right">
+				<section class="news-sec3"  id="news-sec3-1">
+					<img src="image/yangzhi.jpg"  alt="">
+					<div class="news-text-small">
+						<p><a href="">FIFA公布年度最佳主帅候选</a></p><span ><a href="">新浪体育讯　　北京时间10月20号早，FIFA官网公布了2015年年度最佳教练的候选名单，安切洛蒂、恩里克、瓜...</a></span>
+					</div>
+					<!-- <div class="link-more"></div> -->
+				</section>
+				<section class="news-sec3"   id="news-sec3-2">
+					<img src="image/yangzhi.jpg" alt="">
+					<div class="news-text-small">
+						<p><a href="">FIFA公布年度最佳主帅候选</a></p><span><a href="">新浪体育讯　　北京时间10月20号早，FIFA官网公布了2015年年度最佳教练的候选名单，安切洛蒂、恩里克、瓜...</a></span>
+					</div>
+					
+					<!-- <div class="link-more"></div> -->
+				</section>
+				<section class="news-sec3"  id="news-sec3-3" >
+					<img src="image/yangzhi.jpg" alt="">
+					<div class="news-text-small">
+						<p><a href="">FIFA公布年度最佳主帅候选</a></p><span><a href="">新浪体育讯　　北京时间10月20号早，FIFA官网公布了2015年年度最佳教练的候选名单，安切洛蒂、恩里克、瓜...</a></span>
+					</div>
+					
+					<!-- <div class="link-more"></div> -->
+				</section>
+				<section class="news-sec3"  id="news-sec3-4">
+					<img src="image/yangzhi.jpg"  alt="">
+					<div class="news-text-small">
+						<p><a href="">FIFA公布年度最佳主帅候选</a></p><span><a href="">新浪体育讯　　北京时间10月20号早，FIFA官网公布了2015年年度最佳教练的候选名单，安切洛蒂、恩里克、瓜...</a></span>
+					</div>
+					
+					<!-- <div class="link-more"></div> -->
+				</section>
+				
+			</div>
+		</div>
+		</div>
+		<div class="news-2">
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+								<strong>国青新闻</strong>
+							</a>
+						</h4>
+					</div>
+					
+				<div id="collapseOne" class="panel-collapse collapse in">
+				   <div class="panel-body">
+				   <div class="guoqin">
+				     <div class="guoqin-xinwen-1">
+                          <a  href="#">
+                             <img  src="image/hongzhi.jpg"   alt="媒体对象">
+                          </a>
+                           <div class="guoqin-tuji"><a href="#">点击查看高清图集</a></div>
+                          <div class="guoqin-content">
+                             <a href="#"><h4 class="guoqin-heading">亚青赛-韦世豪点球+惊天任意球绝杀 国青2-1日本</h4></a>新浪体育讯　北京时间10月9日晚20时，中国国青队迎来2014亚洲U-19锦标赛的小组首场比赛，对手是日本队；开场25秒唐诗即赢得点球，韦世豪操刀命中助中国队取得1-0的美妙开局....
+     
+                          </div>
+                     </div>
+                       
+                       <div class="guoqin-xinwen-2">
+                          
+                          <div class="guoqin-content">
+                             <a href="#"><h4 class="guoqin-heading">亚青赛-韦世豪点球+惊天任意球绝杀 国青2-1日本</h4></a>新浪体育讯　北京时间10月9日晚20时，中国国青队迎来2014亚洲U-19锦标赛的小组首场比赛，对手是日本队；开场25秒唐诗即赢得点球，韦世豪操刀命中助中国队取得1-0的美妙开局....
+     
+                          </div>
+                          <a  href="#">
+                             <img  src="image/hongzhi.jpg"   alt="媒体对象">
+                          </a>
+                           <div class="guoqin-tuji-2"><a href="#">点击查看高清图集</a></div>
+                     </div>
+                      
+					
+						</div>
+							 <ul class="newlist">
+						    <dl>
+                               <dt><a href="">首届全国青运会福州开幕</a></dt>
+                                 <dd> 
+                                  <li>
+								   <a href="#" target="_blank">79年第一人！曼联妖王震惊全</a>
+							      </li>
+							<li>
+								  <a href="#" target="_blank">79年第一人！曼联妖王震惊全</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">梅西C罗荣誉数据正面PK</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">贝帅打造实用型皇马:我只要成绩</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">皇马拉莫斯复出 曼城双核缺阵</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">皇马非防守型 进攻很强</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">内马尔苏神出战 穆尼尔右边锋</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">魔笛水爷复出 6大悍将缺阵</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">巴萨又被自家球迷坑了</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">7出了德甲 瓜帅还没能证明自己</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">阿森纳2-0拜仁力夺首胜</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">阿森纳2-0拜仁力夺首胜</a>
+							</li>
+                                 </dd>
+                                 
+                            </dl>					
+						</ul>
+						<div class="pictures">
+						    <div id="pictures-1">
+						     <a href=""><img src="image/yangzhi.jpg" alt=""></a>
+						     <span class="pictures-span"><a href="#">本泽马精彩进球集锦</a></span>
+						      <a href=""><span class="glyphicon glyphicon-play-circle"></span></a>
+                            </div>
+                            <div id="pictures-2">
+                            <a href="#"><img src="image/yangzhi.jpg" alt=""></a>
+                             <span class="pictures-span"><a href="">拉玛西亚一周5佳球</a></span>
+                              <a href=""><span class="glyphicon glyphicon-play-circle"></span></a>
+                            </div>
+							
+						</div>
+							
+						</div>
+					</div>
+
+				</div>
+				
+				<div class="panel panel-default">
+					
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+								<strong>国少新闻</strong>
+							</a>
+						</h4>
+					</div>
+
+					<div id="collapseTwo" class="panel-collapse collapse ">
+				   <div class="panel-body">
+				   <div class="guoqin">
+				     <div class="guoqin-xinwen-1">
+                          <a  href="#">
+                             <img  src="image/hongzhi.jpg"   alt="媒体对象">
+                          </a>
+                           <div class="guoqin-tuji"><a href="#">点击查看高清图集</a></div>
+                          <div class="guoqin-content">
+                             <a href="#"><h4 class="guoqin-heading">亚青赛-韦世豪点球+惊天任意球绝杀 国青2-1日本</h4></a>新浪体育讯　北京时间10月9日晚20时，中国国青队迎来2014亚洲U-19锦标赛的小组首场比赛，对手是日本队；开场25秒唐诗即赢得点球，韦世豪操刀命中助中国队取得1-0的美妙开局....
+     
+                          </div>
+                     </div>
+                       
+                       <div class="guoqin-xinwen-2">
+                          
+                          <div class="guoqin-content">
+                             <a href="#"><h4 class="guoqin-heading">亚青赛-韦世豪点球+惊天任意球绝杀 国青2-1日本</h4></a>新浪体育讯　北京时间10月9日晚20时，中国国青队迎来2014亚洲U-19锦标赛的小组首场比赛，对手是日本队；开场25秒唐诗即赢得点球，韦世豪操刀命中助中国队取得1-0的美妙开局....
+     
+                          </div>
+                          <a  href="#">
+                             <img  src="image/hongzhi.jpg"   alt="媒体对象">
+                          </a>
+                           <div class="guoqin-tuji-2"><a href="#">点击查看高清图集</a></div>
+                     </div>
+                      
+					
+						</div>
+							 <ul class="newlist">
+						    <dl>
+                               <dt><a href="">首届全国青运会福州开幕</a></dt>
+                                 <dd> 
+                                  <li>
+								   <a href="#" target="_blank">79年第一人！曼联妖王震惊全</a>
+							      </li>
+							<li>
+								  <a href="#" target="_blank">79年第一人！曼联妖王震惊全</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">梅西C罗荣誉数据正面PK</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">贝帅打造实用型皇马:我只要成绩</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">皇马拉莫斯复出 曼城双核缺阵</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">皇马非防守型 进攻很强</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">内马尔苏神出战 穆尼尔右边锋</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">魔笛水爷复出 6大悍将缺阵</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">巴萨又被自家球迷坑了</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">7出了德甲 瓜帅还没能证明自己</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">阿森纳2-0拜仁力夺首胜</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">阿森纳2-0拜仁力夺首胜</a>
+							</li>
+                                 </dd>
+                                 
+                            </dl>					
+						</ul>
+						<div class="pictures">
+						    <div id="pictures-1">
+						     <a href=""><img src="image/yangzhi.jpg" alt=""></a>
+						     <span class="pictures-span"><a href="#">本泽马精彩进球集锦</a></span>
+						      <a href=""><span class="glyphicon glyphicon-play-circle"></span></a>
+                            </div>
+                            <div id="pictures-2">
+                            <a href="#"><img src="image/yangzhi.jpg" alt=""></a>
+                             <span class="pictures-span"><a href="">拉玛西亚一周5佳球</a></span>
+                              <a href=""><span class="glyphicon glyphicon-play-circle"></span></a>
+                            </div>
+							
+						</div>
+							
+						</div>
+					</div>
+
+				</div>
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+								<strong>专注青训</strong>
+							</a>
+						</h4>
+					</div>
+					<div id="collapseThree" class="panel-collapse collapse ">
+				   <div class="panel-body">
+				   <div class="guoqin">
+				     <div class="guoqin-xinwen-1">
+                          <a  href="#">
+                             <img  src="image/hongzhi.jpg"   alt="媒体对象">
+                          </a>
+                           <div class="guoqin-tuji"><a href="#">点击查看高清图集</a></div>
+                          <div class="guoqin-content">
+                             <a href="#"><h4 class="guoqin-heading">亚青赛-韦世豪点球+惊天任意球绝杀 国青2-1日本</h4></a>新浪体育讯　北京时间10月9日晚20时，中国国青队迎来2014亚洲U-19锦标赛的小组首场比赛，对手是日本队；开场25秒唐诗即赢得点球，韦世豪操刀命中助中国队取得1-0的美妙开局....
+     
+                          </div>
+                     </div>
+                       
+                       <div class="guoqin-xinwen-2">
+                          
+                          <div class="guoqin-content">
+                             <a href="#"><h4 class="guoqin-heading">亚青赛-韦世豪点球+惊天任意球绝杀 国青2-1日本</h4></a>新浪体育讯　北京时间10月9日晚20时，中国国青队迎来2014亚洲U-19锦标赛的小组首场比赛，对手是日本队；开场25秒唐诗即赢得点球，韦世豪操刀命中助中国队取得1-0的美妙开局....
+     
+                          </div>
+                          <a  href="#">
+                             <img  src="image/hongzhi.jpg"   alt="媒体对象">
+                          </a>
+                           <div class="guoqin-tuji-2"><a href="#">点击查看高清图集</a></div>
+                     </div>
+                      
+					
+						</div>
+							 <ul class="newlist">
+						    <dl>
+                               <dt><a href="">首届全国青运会福州开幕</a></dt>
+                                 <dd> 
+                                  <li>
+								   <a href="#" target="_blank">79年第一人！曼联妖王震惊全</a>
+							      </li>
+							<li>
+								  <a href="#" target="_blank">79年第一人！曼联妖王震惊全</a>
+							</li>
+							<li>
+								<a href="#" target="_blank">梅西C罗荣誉数据正面PK</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">贝帅打造实用型皇马:我只要成绩</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">皇马拉莫斯复出 曼城双核缺阵</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">皇马非防守型 进攻很强</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">内马尔苏神出战 穆尼尔右边锋</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">魔笛水爷复出 6大悍将缺阵</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">巴萨又被自家球迷坑了</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">7出了德甲 瓜帅还没能证明自己</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">阿森纳2-0拜仁力夺首胜</a>
+							</li>
+							<li>
+								  <a href="#" target="_blank">阿森纳2-0拜仁力夺首胜</a>
+							</li>
+                                 </dd>
+                                 
+                            </dl>					
+						</ul>
+						<div class="pictures">
+						    <div id="pictures-1">
+						     <a href=""><img src="image/yangzhi.jpg" alt=""></a>
+						     <span class="pictures-span"><a href="#">本泽马精彩进球集锦</a></span>
+						      <a href=""><span class="glyphicon glyphicon-play-circle"></span></a>
+                            </div>
+                            <div id="pictures-2">
+                            <a href="#"><img src="image/yangzhi.jpg" alt=""></a>
+                             <span class="pictures-span"><a href="">拉玛西亚一周5佳球</a></span>
+                              <a href=""><span class="glyphicon glyphicon-play-circle"></span></a>
+                            </div>
+							
+						</div>
+							
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
+	<!-- news end -->
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

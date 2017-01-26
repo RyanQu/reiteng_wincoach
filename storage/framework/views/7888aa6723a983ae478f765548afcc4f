@@ -1,0 +1,83 @@
+
+
+<?php $__env->startSection('content'); ?>
+	<div class="table">
+	<br />
+		<table cellpadding="0" cellpadding="1" class="table_list">
+			<caption><?php echo e($type); ?>栏目管理</caption>
+			<tr>
+				<td colspan="7">
+					<a href="<?php echo e(URL('admin/cate/create')); ?>/<?php echo e($id); ?>" target="a"><input type="button" value="添加" class="button" ></a>
+				</td>
+			</tr>
+			<tr>
+				<th width="30%">栏目名称</th>
+				<th width="15%">排序顺序</th>
+				<th width="15%">栏目状态</th>
+				<th>操作</th>
+			</tr>
+			<?php foreach($cates as $cate): ?>
+			<tr>
+				<td>
+					<input type="checkbox"><?php echo e($cate->name); ?>
+
+				</td>
+				<td><?php echo e($cate->num); ?></td>
+				<td><?php echo e($cate->state); ?></td>
+				<td align="center">
+					<?php echo $cate->act; ?>
+
+				</td>
+			</tr>
+			<?php endforeach; ?>
+			<tr>
+				<td>
+					<input type="checkbox">国青
+				</td>
+				<td>1</td>
+				<td>启用</td>
+				<td align="center">
+					<input type="button" value="修改" class="button">
+					&nbsp;
+					<input type="button" value="停用" class="button">
+				</td>
+			</tr>	<tr>
+				<td>
+					<input type="checkbox">国少
+				</td>
+				<td>2</td>
+				<td>启用</td>
+				<td align="center">
+					<input type="button" value="修改" class="button" onclick="link_to('修改新闻栏目.html')">
+					&nbsp;
+					<input type="button" value="停用" class="button">
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					<input type="checkbox">赛事
+				</td>
+				<td>3</td>
+				<td>启用</td>
+				<td align="center">
+					<input type="button" value="修改" class="button" onclick="link_to('修改新闻栏目.html')">
+					&nbsp;
+					<input type="button" value="停用" class="button">
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					<input type="checkbox">专访
+				</td>
+				<td>4</td>
+				<td>启用</td>
+				<td align="center">
+					<input type="button" value="修改" class="button" onclick="link_to('修改新闻栏目.html')">
+					&nbsp;
+					<input type="button" value="停用" class="button">
+				</td>
+			</tr>
+		</table>
+	</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Admin.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

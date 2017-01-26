@@ -1,0 +1,36 @@
+
+
+<?php $__env->startSection('content'); ?>
+	<div class="table">
+	<br />
+	<form action="<?php echo e(URL('admin/cate/'.$cate->id)); ?>" method="POST">
+    	<input type="hidden" name="_token" value="<?php echo e(csrf_token()); ?>">
+    	<input name="_method" type="hidden" value="PUT">
+    	<input type="hidden" name="type" value="<?php echo e($cate->type); ?>">
+		<table cellpadding="0" cellpadding="1" class="table_list">
+			<caption><?php echo e($function); ?><?php echo e($type); ?>栏目</caption>
+			<tr>
+				<td width="50%" align="right">
+					栏目类型名
+				</td>
+				<td>
+					<input type="text" name="name" placeholder="请输入栏目类型名" value="<?php echo e($cate->name); ?>">
+				</td>
+			</tr>
+			<tr>
+				<td align="right">排序顺序</td>
+				<td>
+					<input type="text" name="num" placeholder="请输入排序顺序" value="<?php echo e($cate->num); ?>">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" class="button" value="<?php echo e($function); ?>">
+					&nbsp;
+					<a href="<?php echo e(URL('admin/cate/'.$cate->type)); ?>"><input type="button" class="button" value="取消"></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('Admin.app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
