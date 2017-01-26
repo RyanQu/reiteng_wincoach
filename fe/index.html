@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>微讯足球</title>
+</head>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src="Js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="Js/bootstrap.min.js"></script>
+<script type="text/javascript" src="Js/slide.js"></script>
+<body>
+<!-- file top begin -->
+	<!-- logo begin-->
+	<div id="logo">
+		<div class="logo-containor containor">
+			<a href="">
+				<img src="image/weixunlogo.jpg" height="120" width="330" alt="">
+			</a>
+			<ul>
+				<li><a href="">设为首页</a></li>
+				<li><a href="">设为书签</a></li>
+				<li><a href="">微博关注</a></li>
+				<li><a href="">滚动</a></li>
+				<li><a href="">排行</a></li>
+			</ul>
+			<div class="login-right">
+				<div class="Login fl"><a id="btnSwapLogin" href="javascript:;">登录</a></div>
+				<div class="navFind fl" id="navFind" style="display:none">
+					<form id="search_form" method="get" action="" target="_blank">
+						<input id="keyword" type="text" name="q" value="" class="text" autocomplete="off"/>
+						<input type="submit" value="搜索" id="btnSearch" style="cursor: pointer;">
+						<input type="button" value="×" onclick="document.getElementById('navFind').style.display='none';document.getElementById('searchBtn').style.display='block';">
+						<div class="clear"></div>
+					</form>
+				</div>
+				<div class="searchBtn" id="searchBtn" href="" style="cursor: pointer;" onclick="document.getElementById('navFind').style.display='block';document.getElementById('searchBtn').style.display='none';"><a>搜索</a></div>
+				<div class="Home fl"><a id="setHomePage" href="" onclick="setHome(this,window.location)">设为首页</a></div>
+			</div>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- logo end -->
+	<!-- nav begin -->
+	<div id="nav">
+		<ul id="nav-bar">
+			<li><a href="#">微训首页</a></li>
+			<li><a href="#">新闻</a></li>
+			<li><a href="#">海外</a></li>
+			<li><a href="#">视频</a></li>
+			<li><a href="#">赛事关注</a></li>
+			<li><a href="#">数据</a></li>
+			<li><a href="#">产品服务</a>
+		</ul>
+	</div>
+	<!-- nav end -->
+	<!-- shadow begin -->
+	<div id="shadow">
+		<div class="containor">
+			<div class="shadow-left"></div>
+			<div class="shadow-right"></div>
+			<div class="shadow-contact-left"></div>
+			<div class="shadow-contact-right"></div>
+		</div>	
+	</div>
+	<!-- shadow end -->
+<!-- top file end -->
+	<!-- main begin -->
+	<div id="main">
+		<div class="containor">
+			<!-- 轮播 开始-->
+			<div class="sec-Carousel">
+				<div id="myCarousel" class="carousel slide">
+					<!-- 轮播（Carousel）项目 -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="image/ga.jpg"  style="width:690px;
+							height:360px" alt="Second slide"} alt="First slide">
+						</div>
+						<div class="item">
+							<img src="image/ga.jpg" style="width:690px;
+							height:360px" alt="Second slide">
+						</div>
+						<div class="item">
+							<img src="image/ga.jpg" style="width:690px;
+							height:360px"  alt="Third slide">
+						</div>
+					</div>	
+					<!-- 轮播（Carousel）指标 -->
+					<div class="panel">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+					</div> 
+				</div> 
+				<div class="Carousel-text-right">
+					<div class="Carousel-right-news-content">
+	            		<div class="left-news-content-bg right-news-content-bg"></div>
+	            		<div class="title-red">
+	                		<a href="/Category/Page?Catid=291"  class="red">赛事新闻</a>
+						</div>
+						<div class="date">
+							<div class="month">10</div>
+							<div class="day">17</div>
+						</div>
+						<div class="news">
+							<a href="Document/ArticlePage?Id=38385" class="summary">中国创新与企业成长（CI&amp;G）2015年度会议</a>
+						</div>
+						<div class="date">
+							<div class="month">10</div>
+							<div class="day">17</div>
+						</div>
+						<div class="news">
+							<a href="Document/ArticlePage?Id=38385" class="summary">中国创新与企业成长（CI&amp;G）2015年度会议</a>
+						</div>
+						<div class="date">
+							<div class="month">10</div>
+							<div class="day">17</div>
+						</div>
+						<div class="news">
+							<a href="Document/ArticlePage?Id=38385" class="summary">中国创新与企业成长（CI&amp;G）2015年度会议</a>
+						</div>
+						<div class="date">
+							<div class="month">10</div>
+							<div class="day">17</div>
+						</div>
+						<div class="news">
+							<a href="Document/ArticlePage?Id=38385" class="summary">中国创新与企业成长（CI&amp;G）2015年度会议</a>
+						</div>
+						<div class="news">
+							<a href="Document/ArticlePage?Id=38385" class="more">更多</a>
+						</div>
+	        		</div>
+				</div>
+			</div>
+			<!-- 轮播 结束 -->
+			<!-- 留白 -->
+			<div class="white">
+			</div>
+			<!-- 留白 -->
+			<!-- Tab1 表栏 开始-->
+			<ul id="Tab1" class="nav nav-tabs">
+				<li class="active">
+					<a href="/demo/bootstrap3-plugin-tab.htm#Abroad" data-toggle="tab">
+						锐腾海外
+					</a>
+				</li>
+				<li><a href="/demo/bootstrap3-plugin-tab.htm#Today" data-toggle="tab">今日推荐</a></li>
+				<li><a href="/demo/bootstrap3-plugin-tab.htm#Race" data-toggle="tab">最新比赛</a></li>
+				<li><a href="/demo/bootstrap3-plugin-tab.htm#Youth" data-toggle="tab">关注国青</a></li>
+			</ul>
+			<!-- Tab1 表栏 结束 -->
+			<!-- Tab1 内容 开始 -->
+			<div id="TabContent1" class="tab-content">
+				<div class="tab-pane fade in active" id="Abroad">
+					<div class="tab1-pic-left">
+						<div class="pic1">
+							<img src="image/shaojiayi.jpg" width="360px" height="240px" alt="">
+							<div class="fv1">邵佳一工体绝杀恒大</div>
+						</div>
+						<div class="pic2">
+							<img src="image/yangzhi.jpg" width="160px" height="90px" alt="">
+							<div class="fv2">圣杨智力扑点球</div>
+						</div>
+						<div class="pic3">
+							<img src="image/majiqi.jpg" width="160px" height="90px" alt="">
+							<div class="fv2">你不知道的马五爷</div>
+						</div>
+					</div>
+					<div class="tab1-news-right">
+						<img src="image/hongzhi.jpg" alt="" width="200" height="128">
+						<div class="textnew">
+							<p>比赛第8分钟，中锋德扬机敏地及时出现，赶在对方后卫封堵前一脚抽射将球射进，帮助北京国安先拔头筹！国安1-0领先。<br>
+							比赛第47分钟，国安队连续进攻，朴成禁区内高高跃起，力压对方边后卫将球顶进球门！国安2-0领先。在完成头球动作时，朴成头部也碰到对方，但是他顽强地站了起来继续比赛。<br>
+							第85分钟，国安完成一次“慢速反击”！。面对对方后卫的封堵，于大宝利用假射晃过对方，面对空门一记大力抽射！国安将士三度洞穿鲁能球门！</p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="tab-pane fade" id="Today">
+					<div class="tab1-pic-left">
+						<div class="pic1">
+							<img src="image/shaojiayi.jpg" width="360px" height="240px" alt="">
+							<div class="fv1">邵佳一工体绝杀恒大</div>
+						</div>
+						<div class="pic2">
+							<img src="image/yangzhi.jpg" width="160px" height="90px" alt="">
+							<div class="fv2">圣杨智力扑点球</div>
+						</div>
+						<div class="pic3">
+							<img src="image/majiqi.jpg" width="160px" height="90px" alt="">
+							<div class="fv2">你不知道的马五爷</div>
+						</div>
+					</div>
+					<div class="tab1-news-right">
+						<img src="image/hongzhi.jpg" alt="" width="200" height="128">
+						<div class="textnew">
+							<p>比赛第8分钟，中锋德扬机敏地及时出现，赶在对方后卫封堵前一脚抽射将球射进，帮助北京国安先拔头筹！国安1-0领先。<br>
+							比赛第47分钟，国安队连续进攻，朴成禁区内高高跃起，力压对方边后卫将球顶进球门！国安2-0领先。在完成头球动作时，朴成头部也碰到对方，但是他顽强地站了起来继续比赛。<br>
+							第85分钟，国安完成一次“慢速反击”！。面对对方后卫的封堵，于大宝利用假射晃过对方，面对空门一记大力抽射！国安将士三度洞穿鲁能球门！</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="Race">
+					<div class="tab1-section1">
+						<div class="line">
+							<h3>已结束</h3>
+							<div class="num">2015-08-15 19:30 第18轮</div>
+						</div>
+						<div class="game">
+							<div class="team">
+								<img src="image/guoan.png" width="60" height="60" alt="">
+								<div class="score" >3</div>
+							</div>
+							<div class="score1">:</div>
+							<div class="team">
+								<img src="image/lvneng.png" alt="" width="60" height="60">
+								<div class="score">1</div>
+							</div>
+						</div>
+						<div class="select">
+							<button id="video">视频集锦</button>
+							<button id="image">高清图集</button>
+							<button id="text">战报</button>
+						</div>
+					</div>
+					<div class="tab1-section1">
+						<div class="line">
+							<h3>已结束</h3>
+							<div class="num">2015-08-15 19:30 第18轮</div>
+						</div>
+						<div class="game">
+							<div class="team">
+								<img src="image/guoan.png" width="60" height="60" alt="">
+								<div class="score" >3</div>
+							</div>
+							<div class="score1">:</div>
+							<div class="team">
+								<img src="image/lvneng.png" alt="" width="60" height="60">
+								<div class="score">1</div>
+							</div>
+						</div>
+						<div class="select">
+							<button id="video">视频集锦</button>
+							<button id="image">高清图集</button>
+							<button id="text">战报</button>
+						</div>
+					</div>
+					<div class="tab1-section2">
+						<div class="line">
+							<h3>未开赛</h3>
+						</div>
+						<div class="game1">
+							<div class="gamedate">
+								<div class="month">10</div>
+								<div class="day">17</div>
+							</div>
+							<div class="time">
+								第20轮<br>19:30
+							</div>
+							<img src="image/guoan.png" width="60" height="60" alt="">
+							<img src="image/lvneng.png" width="60" height="60" alt="">
+						</div>
+						<div class="game2">
+							<div class="gamedate">
+								<div class="month">10</div>
+								<div class="day">17</div>
+							</div>
+							<div class="time">
+								第20轮<br>19:30
+							</div>
+							<img src="image/guoan.png" width="60" height="60" alt="">
+							<img src="image/lvneng.png" width="60" height="60" alt="">
+						</div>
+						<div class="game3">
+							<div class="gamedate">
+								<div class="month">10</div>
+								<div class="day">17</div>
+							</div>
+							<div class="time">
+								第20轮<br>19:30
+							</div>
+							<img src="image/guoan.png" width="60" height="60" alt="">
+							<img src="image/lvneng.png" width="60" height="60" alt="">
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="Youth">
+					<div class="tab1-pic-left">
+						<div class="pic1">
+							<img src="image/shaojiayi.jpg" width="360px" height="240px" alt="">
+							<div class="fv1">邵佳一工体绝杀恒大</div>
+						</div>
+						<div class="pic2">
+							<img src="image/yangzhi.jpg" width="160px" height="90px" alt="">
+							<div class="fv2">圣杨智力扑点球</div>
+						</div>
+						<div class="pic3">
+							<img src="image/majiqi.jpg" width="160px" height="90px" alt="">
+							<div class="fv2">你不知道的马五爷</div>
+						</div>
+					</div>
+					<div class="tab1-news-right">
+						<img src="image/hongzhi.jpg" alt="" width="200" height="128">
+						<div class="textnew">
+							<p>比赛第8分钟，中锋德扬机敏地及时出现，赶在对方后卫封堵前一脚抽射将球射进，帮助北京国安先拔头筹！国安1-0领先。<br>
+							比赛第47分钟，国安队连续进攻，朴成禁区内高高跃起，力压对方边后卫将球顶进球门！国安2-0领先。在完成头球动作时，朴成头部也碰到对方，但是他顽强地站了起来继续比赛。<br>
+							第85分钟，国安完成一次“慢速反击”！。面对对方后卫的封堵，于大宝利用假射晃过对方，面对空门一记大力抽射！国安将士三度洞穿鲁能球门！</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tab1 内容 结束 -->
+			<!-- 广告 开始 -->
+			<div class="ad">
+				<a href="http://reiteng.sinaapp.com/">
+					<img src="image/adt.jpg" alt="">
+				</a>
+			</div>
+			<!-- 广告 结束 -->
+			<!-- Tab2 表栏 开始 -->
+			<ul id="Tab2" class="nav nav-tabs">
+				<li class="active">
+					<a href="/demo/bootstrap3-plugin-tab.htm#Summercamp" data-toggle="tab">
+						夏令营
+					</a>
+				</li>
+				<li><a href="/demo/bootstrap3-plugin-tab.htm#Project" data-toggle="tab">海外项目</a></li>
+				<li><a href="/demo/bootstrap3-plugin-tab.htm#Coach" data-toggle="tab">教练求职</a></li>
+			</ul>
+			<!-- Tab2 表栏 结束 -->
+			<!-- Tab2 内容 开始 -->
+			<div id="TabContent2" class="tab-content">
+				<div class="tab-pane fade in active" id="Summercamp">
+					<div class="tab2-content-right">
+						<div class="part1">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part2">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part3">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part4">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="tab-pane fade" id="Project">
+					<div class="tab2-content-right">
+						<div class="part1">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part2">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part3">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part4">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+					</div>  
+				</div>
+
+				<div class="tab-pane fade" id="Coach">
+					<div class="tab2-content-right">
+						<div class="part1">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part2">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part3">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+						<div class="part4">
+							<img src="image/gp.jpg" width="160" height="100" alt="">
+							<div class="text-bottom">北京国安是冠军</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tab2 内容 结束 -->
+		</div>
+	</div>
+	<!-- main end -->
+<!-- footer file begin -->
+	<!-- footer begin -->
+	<div id="footer">
+		<div class="texxt-left">
+			<img src="image/section-image-1.png" alt="" height="80">
+		</div>
+		<div class="texxt-right">
+			友情链接:<br>
+			<a href="">中国足球协会</a><br>
+			<a href="">虎扑体育</a><br>
+			© 2015 锐腾体育 版权所有
+		</div>
+	</div>
+	<!-- footer end -->
+<!-- footer file end -->
+</body>
+</html>
